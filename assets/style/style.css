@@ -62,6 +62,20 @@ body {
   border-radius: 100%;
 }
 
+.chat-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0 3rem 0rem;
+  border-bottom: 1px solid lightgray;
+}
+.chat-button button {
+  color: white;
+  background-color: #a490d2;
+  font-size: 16px;
+  padding: 0.6rem 2rem 0.6rem 2rem;
+}
+
 .chat-maria {
   display: flex;
   justify-content: start;
@@ -73,7 +87,11 @@ body {
   display: flex;
 }
 .simbols-maria {
+  display: flex;
   padding-left: 2rem;
+}
+.space {
+  padding: 0 0.5rem 0 0.5rem;
 }
 .title-chat-maria {
   padding: 0;
